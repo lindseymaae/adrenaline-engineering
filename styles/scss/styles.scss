@@ -104,10 +104,12 @@ main {
   text-align: center;
 }
 
-
+section{
+  margin: 1rem;
+}
 .column-grid {
   display: grid;
-  margin: 1rem;
+  
   grid-template-columns: 33% 33% 33%;
   justify-content: space-evenly;
 }
