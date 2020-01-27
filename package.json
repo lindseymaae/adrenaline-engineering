@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch styles/scss -o styles/css"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,7 @@
   "dependencies": {
     "node-sass": "^4.13.1"
   },
-  "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "scss": "node-sass --watch scss -o css"
+  "devDependencies": {
+    "prettier": "^1.19.1"
   }
 }
