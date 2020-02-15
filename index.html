@@ -10,59 +10,134 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/css/styles.css">
+        <script src="jquery.js" charset="utf-8"></script>
+        <script src="client.js"></script>
+        <script src="https://kit.fontawesome.com/a4cb36a938.js" crossorigin="anonymous"></script>
     </head>
     <header>
-            <img src="styles/images/ae-logo.png">
-            <img src="styles/images/ae-text-logo.svg" class="text-logo"> 
-    </header>
+            <div>
+<img src="styles/images/ae-logo.png">
+<img src="styles/images/ae-text-logo.svg" class="text-logo">
+            </div>
+  
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="pages/ContactFrom_v17/contact.html">Contact</a></li>
         </ul>
     </nav>
+</header>
     <body>
         <main>
             <article>
-           <img src="styles/images/feature-photo.jpg" >
+           <img src="styles/images/fbcover.jpeg" >
            <div class="caption">
                <h1>Feature</h1>
                <p>Information on feature</p>
            </div>
             </article>
-            
+                    <section id="about-section" class="center-section">
+                        <h2>About</h2>
+                        <p class="center-text">Adrenaline Engineering specializes in creating custom electro-mechanical racing systems for all forms of
+                            motorsports, as
+                            well as offering trackside support, consulting, development, manufacturing, service, and tuning for all things
+                            racing.</p>
+                    </section>
             <section class="column-grid">
-                <h2>
-                    Products/Services
+                <h2 id="products">
+                    Products
                 </h2>
-                <div class="card">
-                    <img src="" alt="Circuit Board" style="width:100%">
-                    <div class="container">
-                        <h4><b>Circuit Board</b></h4>
-                        <p>Used for</p>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="width:300px;height:300px;">
+                        <img src="styles/images/johannes-plenio-FZpCcPss9to-unsplash.jpg" alt="Circuit Board" style="width: 100%; height: 100%">
+                        <h3>Circuit Boards</h3>
+                    </div>
+                    <div class="flip-card-back"  style="width:300px;height:300px;">
+                        <h1>Circuit Board</h1>
+                        <p>Does cool stuff</p>
+                        <p>like really cool</p>
                     </div>
                 </div>
-                        <div class="card">
-                            <img src="" alt="Circuit Board" style="width:100%">
-                            <div class="container">
-                                <h4><b>Circuit Board</b></h4>
-                                <p>Used for</p>
+            </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" style="width:300px;height:300px;">
+                                <img src="styles/images/johannes-plenio-FZpCcPss9to-unsplash.jpg" alt="Circuit Board"
+                                    style="width: 100%; height: 100%">
+                                <h3>Circuit Boards</h3>
+                            </div>
+                            <div class="flip-card-back" style="width:300px;height:300px;">
+                                <h1>Circuit Board</h1>
+                                <p>Does cool stuff</p>
+                                <p>like really cool</p>
                             </div>
                         </div>
-                                <div class="card">
-                                    <img src="" alt="Circuit Board" style="width:100%">
-                                    <div class="container">
-                                        <h4><b>Circuit Board</b></h4>
-                                        <p>Used for</p>
+                    </div>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front" style="width:300px;height:300px;">
+                                        <img src="styles/images/johannes-plenio-FZpCcPss9to-unsplash.jpg" alt="Circuit Board"
+                                            style="width: 100%; height: 100%">
+                                        <h3>Circuit Boards</h3>
+                                    </div>
+                                    <div class="flip-card-back" style="width:300px;height:300px;">
+                                        <h1>Circuit Board</h1>
+                                        <p>Does cool stuff</p>
+                                        <p>like really cool</p>
                                     </div>
                                 </div>
-            </section>
-            <section>
-                <h2>About</h2>
-                <p></p>
-            </section>
+                            </div>
+                            <h2 id="services">
+                                Services
+                            </h2>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front" style="width:300px;height:300px;">
+                                        <img src="styles/images/johannes-plenio-FZpCcPss9to-unsplash.jpg" alt="Circuit Board"
+                                            style="width: 100%; height: 100%">
+                                        <h3>Circuit Boards</h3>
+                                    </div>
+                                    <div class="flip-card-back" style="width:300px;height:300px;">
+                                        <h1>Circuit Board</h1>
+                                        <p>Does cool stuff</p>
+                                        <p>like really cool</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front" style="width:300px;height:300px;">
+                                        <img src="styles/images/johannes-plenio-FZpCcPss9to-unsplash.jpg" alt="Circuit Board"
+                                            style="width: 100%; height: 100%">
+                                        <h3>Circuit Boards</h3>
+                                    </div>
+                                    <div class="flip-card-back" style="width:300px;height:300px;">
+                                        <h1>Circuit Board</h1>
+                                        <p>Does cool stuff</p>
+                                        <p>like really cool</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front" style="width:300px;height:300px;">
+                                        <img src="styles/images/johannes-plenio-FZpCcPss9to-unsplash.jpg" alt="Circuit Board"
+                                            style="width: 100%; height: 100%">
+                                        <h3>Circuit Boards</h3>
+                                    </div>
+                                    <div class="flip-card-back" style="width:300px;height:300px;">
+                                        <h1>Circuit Board</h1>
+                                        <p>Does cool stuff</p>
+                                        <p>like really cool</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
         </main>
         <footer>
             <p>Copyright</p>
