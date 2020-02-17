@@ -52,7 +52,8 @@ nav {
         text-decoration: none;
         padding: 14px; }
         nav ul li a:hover {
-          background-color: white; }
+          background-color: white;
+          color: black; }
 
 main {
   margin-top: -1rem; }
